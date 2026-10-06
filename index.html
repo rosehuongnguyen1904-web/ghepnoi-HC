@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="vi"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261006-04-b082f3f","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghép Nối Gốc Hydrocarbon</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <style>
+        body { font-family: 'DM Sans', sans-serif; }
+        .match-item { transition: all 0.2s; cursor: pointer; }
+        .match-item:hover { transform: scale(1.03); }
+        .match-item.selected { ring: 2px; box-shadow: 0 0 0 3px #3b82f6; }
+        .match-item.matched { opacity: 0.6; pointer-events: none; }
+        .match-item.wrong { animation: shake 0.4s; }
+        @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-4px)} 75%{transform:translateX(4px)} }
+        .line-correct { stroke: #22c55e; stroke-width: 2.5; }
+        .line-animation { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: drawLine 0.5s forwards; }
+        @keyframes drawLine { to { stroke-dashoffset: 0; } }
+    </style>
+  <script src="/_sdk/ab4336f91e694f96.resizing_sdk.js" type="text/javascript" integrity="sha512-cxmeUrBrNlwwLr+tEu/iwM5F3boeK4qDMoH3QjUPqJptkO5NkaDVhQvyIHIn+3EflI5/uubWzkSA78B1tCswgA=="></script>
+ <script src="/_sdk/6c2ecc939521f244.data_sdk.js" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script></head>
+ <body data-template-id="__page-root" class="min-h-screen" style="background: linear-gradient(135deg, rgb(30, 58, 95), rgb(15, 32, 39));">
+  <main class="w-full max-w-4xl mx-auto p-4 relative"><!-- Start Screen -->
+   <div id="start-screen" class="flex flex-col items-center justify-center gap-6 py-12">
+    <h1 data-template-id="game-title" class="canva-text text-center font-bold" style="color: rgb(255, 255, 255); font-weight: bold; font-style: normal; font-size: 32px;">Ghép Nối Gốc Hydrocarbon</h1>
+    <p data-template-id="game-desc" class="canva-text text-center max-w-md" style="color: rgb(203, 213, 225); font-weight: 400; font-style: normal; font-size: 16px;">Ghép công thức gốc hydrocarbon ở cột A với tên gọi tương ứng ở cột B. Mỗi cặp đúng được 2 điểm!</p>
+    <div class="w-full max-w-xs"><label data-template-id="team-label" class="canva-text block mb-2 font-medium" for="team-input" style="color: rgb(226, 232, 240); font-weight: 500; font-style: normal; font-size: 16px;">Tên đội chơi</label> <input id="team-input" type="text" class="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-blue-500 outline-none text-lg" data-template-id="team-input" placeholder="Nhập tên đội..." style="font-weight: 400; font-style: normal; font-size: 16px;">
+    </div><button data-template-id="start-btn" class="canva-button px-8 py-3 rounded-lg font-bold text-lg" onclick="startGame()" style="background: rgb(245, 158, 11); color: rgb(30, 41, 59); font-weight: bold; font-style: normal; font-size: 16px;">Bắt đầu</button>
+   </div><!-- Game Screen -->
+   <div id="game-screen" class="hidden">
+    <div class="flex justify-between items-center mb-4"><span data-template-id="score-label" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: bold; font-style: normal; font-size: 16px;">Điểm:</span> <span id="score-display" class="font-bold text-xl">0/10</span> <span data-template-id="time-label" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: bold; font-style: normal; font-size: 16px;">Thời gian:</span> <span id="time-display" class="font-mono text-xl">00:00</span>
+    </div>
+    <div class="relative">
+     <svg id="lines-svg" class="absolute inset-0 w-full h-full pointer-events-none z-10"></svg>
+     <div class="grid grid-cols-2 gap-8" id="columns-container">
+      <div id="col-a" class="flex flex-col gap-3"></div>
+      <div id="col-b" class="flex flex-col gap-3"></div>
+     </div>
+    </div>
+   </div><!-- Result Screen -->
+   <div id="result-screen" class="hidden flex flex-col items-center gap-6 py-12">
+    <h2 data-template-id="result-title" class="canva-text font-bold text-center" style="color: rgb(255, 255, 255); font-weight: bold; font-style: normal; font-size: 28px;">Hoàn thành!</h2>
+    <div id="result-score" class="text-5xl font-bold text-green-600"></div>
+    <div id="result-time" class="text-xl text-gray-600"></div><button data-template-id="play-again-btn" class="canva-button px-8 py-3 rounded-lg font-bold" onclick="resetToStart()" style="background: rgb(245, 158, 11); color: rgb(30, 41, 59); font-weight: bold; font-style: normal; font-size: 16px;">Chơi lại</button>
+   </div><!-- Leaderboard -->
+   <div id="leaderboard-section" class="mt-8 border-t pt-6">
+    <div class="flex justify-between items-center mb-4">
+     <h2 data-template-id="lb-title" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: bold; font-style: normal; font-size: 22px;">🏆 Bảng Xếp Hạng</h2><button data-template-id="lb-clear-btn" class="canva-button px-4 py-2 rounded-lg text-sm font-medium" onclick="showClearModal()" style="background: rgb(220, 38, 38); color: rgb(255, 255, 255); font-weight: 500; font-style: normal; font-size: 16px;">Xoá bảng xếp hạng</button>
+    </div>
+    <div id="lb-empty" class="">
+     <p data-template-id="lb-empty-text" class="canva-text text-center py-4" style="color: rgb(148, 163, 184); font-weight: 400; font-style: italic; font-size: 16px;">Chưa có đội nào hoàn thành.</p>
+    </div>
+    <table id="lb-table" class="w-full hidden">
+     <thead>
+      <tr class="border-b-2">
+       <th class="text-left py-2 px-2">#</th>
+       <th data-template-id="lb-col-team" class="canva-text text-left py-2 px-2" style="color: rgb(226, 232, 240); font-weight: bold; font-style: normal; font-size: 16px;">Đội</th>
+       <th data-template-id="lb-col-score" class="canva-text text-center py-2 px-2" style="color: rgb(226, 232, 240); font-weight: bold; font-style: normal; font-size: 16px;">Điểm</th>
+       <th data-template-id="lb-col-time" class="canva-text text-center py-2 px-2" style="color: rgb(226, 232, 240); font-weight: bold; font-style: normal; font-size: 16px;">Thời gian</th>
+      </tr>
+     </thead>
+     <tbody id="lb-body"></tbody>
+    </table>
+   </div><!-- Clear Modal -->
+   <div id="clear-modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-xl p-6 max-w-sm w-full">
+     <h3 data-template-id="modal-title" class="canva-text font-bold mb-4" style="color: rgb(17, 24, 39); font-weight: bold; font-style: normal; font-size: 18px;">Nhập mật khẩu để xoá</h3><input id="password-input" type="password" class="w-full px-4 py-2 border-2 rounded-lg mb-3" data-template-id="password-input" placeholder="Mật khẩu..." style="font-weight: 400; font-style: normal; font-size: 16px;">
+     <p id="pw-error" class="text-red-500 text-sm mb-3 hidden">Sai mật khẩu!</p>
+     <div class="flex gap-3"><button data-template-id="modal-cancel" class="canva-button flex-1 py-2 rounded-lg font-medium" onclick="hideClearModal()" style="background: rgb(229, 231, 235); color: rgb(55, 65, 81); font-weight: 400; font-style: normal; font-size: 16px;">Huỷ</button> <button data-template-id="modal-confirm" class="canva-button flex-1 py-2 rounded-lg font-medium" onclick="confirmClear()" style="background: rgb(220, 38, 38); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Xác nhận</button>
+     </div>
+    </div>
+   </div>
+  </main>
+  <script src="/_sdk/1473331b860cdf5c.editing_sdk.js" integrity="sha512-zd/WiNJmdX2rRMgSDon0ny7eSp9O1vzGBXvBfGBu3AbU02LcUa3u+AcBTlNj+As6xOR2OKa6lFg023tgHMv5KQ=="></script>
+  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
+  <script>
+        const PAIRS = [
+            { formula: 'CH₃–', name: 'methyl' },
+            { formula: 'C₂H₅–', name: 'ethyl' },
+            { formula: 'CH₃–CH₂–CH₂–', name: 'propyl' },
+            { formula: '(CH₃)₂CH–', name: 'isopropyl' },
+            { formula: '(CH₃)₂CH–CH₂–CH₂–', name: 'isoamyl' },
+            { formula: 'CH₂=CH–', name: 'vinyl' },
+            { formula: 'CH₂=CH–CH₂–', name: 'allyl' },
+            { formula: 'C₆H₅–', name: 'phenyl' },
+            { formula: 'C₆H₅–CH₂–', name: 'benzyl' }
+        ];
+
+        let leaderboardData = [];
+        let selectedA = null;
+        let matchedPairs = 0;
+        let score = 0;
+        let timerInterval = null;
+        let startTime = null;
+        let gameActive = false;
+
+        const dataHandler = {
+            onDataChanged(data) {
+                leaderboardData = data.slice().sort((a, b) => {
+                    if (b.score !== a.score) return b.score - a.score;
+                    return a.time_seconds - b.time_seconds;
+                });
+                renderLeaderboard();
+            }
+        };
+
+        window.dataSdk.init(dataHandler);
+
+        function shuffle(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        function startGame() {
+            const name = document.getElementById('team-input').value.trim();
+            if (!name) { document.getElementById('team-input').focus(); return; }
+            document.getElementById('start-screen').classList.add('hidden');
+            document.getElementById('game-screen').classList.remove('hidden');
+            score = 0; matchedPairs = 0; selectedA = null; gameActive = true;
+            document.getElementById('score-display').textContent = '0/10';
+            document.getElementById('lines-svg').innerHTML = '';
+            buildColumns();
+            startTime = Date.now();
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+
+        function buildColumns() {
+            const colA = document.getElementById('col-a');
+            const colB = document.getElementById('col-b');
+            colA.innerHTML = ''; colB.innerHTML = '';
+            const shuffledA = shuffle(PAIRS);
+            const shuffledB = shuffle(PAIRS);
+            shuffledA.forEach((p, i) => {
+                const el = document.createElement('button');
+                el.className = 'match-item bg-blue-50 border-2 border-blue-200 rounded-lg px-4 py-3 text-left font-mono text-sm';
+                el.textContent = p.formula;
+                el.dataset.name = p.name;
+                el.dataset.side = 'a';
+                el.dataset.index = i;
+                el.onclick = () => selectItem(el, 'a');
+                colA.appendChild(el);
+            });
+            shuffledB.forEach((p, i) => {
+                const el = document.createElement('button');
+                el.className = 'match-item bg-amber-50 border-2 border-amber-200 rounded-lg px-4 py-3 text-left font-medium';
+                el.textContent = p.name;
+                el.dataset.name = p.name;
+                el.dataset.side = 'b';
+                el.dataset.index = i;
+                el.onclick = () => selectItem(el, 'b');
+                colB.appendChild(el);
+            });
+        }
+
+        function selectItem(el, side) {
+            if (!gameActive || el.classList.contains('matched')) return;
+            if (side === 'a') {
+                if (selectedA) selectedA.classList.remove('selected');
+                selectedA = el;
+                el.classList.add('selected');
+            } else if (side === 'b' && selectedA) {
+                checkMatch(selectedA, el);
+            }
+        }
+
+        function checkMatch(a, b) {
+            if (a.dataset.name === b.dataset.name) {
+                score += 2; matchedPairs++;
+                a.classList.remove('selected');
+                a.classList.add('matched');
+                b.classList.add('matched');
+                drawLine(a, b);
+                document.getElementById('score-display').textContent = score + '/10';
+                if (matchedPairs === 9) endGame();
+            } else {
+                a.classList.remove('selected');
+                b.classList.add('wrong');
+                setTimeout(() => b.classList.remove('wrong'), 400);
+            }
+            selectedA = null;
+        }
+
+        function drawLine(a, b) {
+            const svg = document.getElementById('lines-svg');
+            const container = document.getElementById('columns-container');
+            const rect = container.getBoundingClientRect();
+            const aRect = a.getBoundingClientRect();
+            const bRect = b.getBoundingClientRect();
+            const x1 = aRect.right - rect.left;
+            const y1 = aRect.top + aRect.height / 2 - rect.top;
+            const x2 = bRect.left - rect.left;
+            const y2 = bRect.top + bRect.height / 2 - rect.top;
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', x1); line.setAttribute('y1', y1);
+            line.setAttribute('x2', x2); line.setAttribute('y2', y2);
+            line.classList.add('line-correct', 'line-animation');
+            svg.appendChild(line);
+        }
+
+        function updateTimer() {
+            const s = Math.floor((Date.now() - startTime) / 1000);
+            const m = String(Math.floor(s / 60)).padStart(2, '0');
+            const sec = String(s % 60).padStart(2, '0');
+            document.getElementById('time-display').textContent = m + ':' + sec;
+        }
+
+        async function endGame() {
+            gameActive = false;
+            clearInterval(timerInterval);
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('game-screen').classList.add('hidden');
+            document.getElementById('result-screen').classList.remove('hidden');
+            document.getElementById('result-score').textContent = score + ' điểm';
+            const m = String(Math.floor(elapsed / 60)).padStart(2, '0');
+            const sec = String(elapsed % 60).padStart(2, '0');
+            document.getElementById('result-time').textContent = 'Thời gian: ' + m + ':' + sec;
+
+            const teamName = document.getElementById('team-input').value.trim();
+            if (leaderboardData.length >= 999) return;
+            await window.dataSdk.create({
+                team_name: teamName,
+                score: score,
+                time_seconds: elapsed,
+                completed_at: new Date().toISOString()
+            });
+        }
+
+        function resetToStart() {
+            document.getElementById('result-screen').classList.add('hidden');
+            document.getElementById('start-screen').classList.remove('hidden');
+            document.getElementById('team-input').value = '';
+        }
+
+        function renderLeaderboard() {
+            const tbody = document.getElementById('lb-body');
+            const table = document.getElementById('lb-table');
+            const empty = document.getElementById('lb-empty');
+            if (leaderboardData.length === 0) {
+                table.classList.add('hidden'); empty.classList.remove('hidden');
+                return;
+            }
+            empty.classList.add('hidden'); table.classList.remove('hidden');
+            tbody.innerHTML = '';
+            leaderboardData.forEach((r, i) => {
+                const tr = document.createElement('tr');
+                tr.className = 'border-b';
+                const s = r.time_seconds || 0;
+                const m = String(Math.floor(s / 60)).padStart(2, '0');
+                const sec = String(s % 60).padStart(2, '0');
+                tr.innerHTML = `<td class="py-2 px-2 font-bold">${i + 1}</td><td class="py-2 px-2">${r.team_name || ''}</td><td class="py-2 px-2 text-center font-bold">${r.score}</td><td class="py-2 px-2 text-center font-mono">${m}:${sec}</td>`;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function showClearModal() { document.getElementById('clear-modal').classList.remove('hidden'); document.getElementById('pw-error').classList.add('hidden'); document.getElementById('password-input').value = ''; }
+        function hideClearModal() { document.getElementById('clear-modal').classList.add('hidden'); }
+
+        async function confirmClear() {
+            const pw = document.getElementById('password-input').value;
+            if (pw !== 'Giaovien123') {
+                document.getElementById('pw-error').classList.remove('hidden');
+                return;
+            }
+            for (const r of leaderboardData) {
+                await window.dataSdk.delete(r);
+            }
+            hideClearModal();
+        }
+
+        lucide.createIcons();
+    </script>
+ 
+</body></html>
